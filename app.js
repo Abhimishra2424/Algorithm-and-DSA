@@ -91,3 +91,14 @@
 // console.log(fibonacci(3)); // [0,1,1]
 // console.log(fibonacci(7)); // [0,1,1,2,3,5,8]
 
+const factorial = (n) => {
+  let r = 1;
+  for (let i = 2; i <= n; i++) {
+    r = r * i;
+  }
+  return `Factorial of ${n} is ${r}`;
+};
+
+console.log(factorial(5));
+
+// Bi-O  O(n)
