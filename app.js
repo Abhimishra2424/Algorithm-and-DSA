@@ -91,14 +91,29 @@
 // console.log(fibonacci(3)); // [0,1,1]
 // console.log(fibonacci(7)); // [0,1,1,2,3,5,8]
 
-const factorial = (n) => {
-  let r = 1;
-  for (let i = 2; i <= n; i++) {
-    r = r * i;
-  }
-  return `Factorial of ${n} is ${r}`;
-};
+// const factorial = (n) => {
+//   let r = 1;
+//   for (let i = 2; i <= n; i++) {
+//     r = r * i;
+//   }
+//   return `Factorial of ${n} is ${r}`;
+// };
 
-console.log(factorial(5));
+// console.log(factorial(5));
 
 // Bi-O  O(n)
+
+// const isPrime = (n) => {
+//   if (n < 2) return false;
+
+//   for (let i = 2; i <= Math.sqrt(n); i++) {
+//     if (n % i === 0) return false;
+//   }
+//   return true;
+// };
+
+// console.log(isPrime(1));
+// console.log(isPrime(5));
+// console.log(isPrime(4));
+
+// Bi-O  O(sqrt(n)) linnear time complexity
