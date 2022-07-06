@@ -143,3 +143,29 @@
 // }
 
 // Big o = o(1)
+
+// function recursiveFactorial(n) {
+//   if (n === 0) return 1;
+
+//   return n * recursiveFactorial(n - 1);
+// }
+
+// console.log(recursiveFactorial(5));
+
+//  search algorithm
+//  1. Linear search
+//  2. Binary search
+
+//  Linear search
+
+function linearSeacrh(arr, target) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) {
+      return i;
+    }
+  }
+  return -1;
+}
+
+// Big O = O(n)
+console.log(linearSeacrh([1, 2, 3, 4, 5, 6, 7, 8, 9, 0], 5)); // 4
